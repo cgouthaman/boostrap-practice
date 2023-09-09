@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+
+
+<!-- Nav Bar -->
+
+<nav class="navbar navbar-expand-md bg-secondary-subtle">
+<div class="container-lg">
+    <a href="#intro" class="navbar-brand">
+        <span class="fw-bold text-secondary">
+            <i class="bi bi-book-half"></i> Master Coding - the Book
+        </span>
+    </a>
+    <!-- toggle button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse justify-content-end align-items-center" id="main-nav">
+       <ul class="navbar-nav mb-lg-0">
+           <li class="nav-item">
+               <a class="nav-link" href="#topics">About the book</a>
+           </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#reviews">Reviews</a>
+           </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#contact">Get in Touch</a>
+           </li>
+            <li class="nav-item d-md-none">
+               <a class="nav-link" href="#pricing">Pricing</a>
+           </li>
+           
+           <li class="nav-item ms-2 d-none d-md-inline">
+               <a class="btn btn-secondary" href="#pricing">Buy Now</a>
+           </li>
+       </ul>
+        
+        
+    </div>
+    
+    </div>
+</nav>
+
+
+
+
+<!-- Section -->
+
+<section id="intro">
+    
+    <div class="container-lg">
+        <div class="row align-items-center justify-content-evenly">
+           <div class="col-md-5 text-center text-md-start">
+            <h1>
+           <div class="display-2">Black-Belt</div>
+           <div class="display-5 text-muted">Your Coding Skills</div>
+           </h1>
+            
+            <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            
+            <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+            <a class="d-block mt-3" href="#slide" data-bs-toggle="offcanvas">Look for other Books?</a>
+            </div>
+            
+             <div class="col-md-4 text-center d-none d-md-block">
+             <span class="tt" data-bs-placement="bottom" title="book cover" data-bs-toggle="tooltip"><img class="image-fluid" src="Images/book.png" height="400px;" width="300px;"></span>
+             </div>
+             
+        </div>               
+</div>   
+    
+</section>  
+       
+       
+       
+<!-- Pricing -->
+
+<section id="pricing" class="bg-light">
+    
+  <div class="container-lg">
+      <div class="text-center">
+          <h2><i class="bi bi-tags-fill"></i> Pricing Plans</h2>
+          <p class="lead text-muted">Choose a pricing plan to suit you.</p>
+      </div>
+      
+      <div class="row my-5 align-items-center justify-content-center g-0">
+         <div class="col-8 col-lg-4 col-xl-3">
+             <div class="card border-0">
+                 <div class="card-body text-center py-4">
+                     <h3 class="card-title">Starter Edition</h3>
+                     <p class="lead card-subtitle">eBook download only</p>
+                     <h1 class="display-4 fw-bold text-primary my-3">₹250</h1>
+                     <p class="card-text text-align-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore eius esse, molestias cumque veniam laudantium alias rem magni quae expedita, vel voluptatum</p>
+                     <a href="#" class="btn btn-outline-primary btn-lg">Buy Now</a>
+                 </div>
+             </div>
+         </div>
+         
+          <div class="col-9 col-lg-4 col-xl-3">
+             <div class="card border-primary border-2">
+                <div class="card-header text-center text-primary fw-bold">
+                    Most Popular
+                </div>
+                 <div class="card-body text-center py-4">
+                     <h3 class="card-title">Complete Edition</h3>
+                     <p class="lead card-subtitle">eBook download & updates</p>
+                     <h1 class="display-4 fw-bold text-primary my-3">₹400</h1>
+                     <p class="card-text text-align-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore eius esse, molestias cumque veniam laudantium alias rem magni quae expedita, vel voluptatum</p>
+                     <a href="#" class="btn btn-outline-primary btn-lg">Buy Now</a>
+                 </div>
+             </div>
+         </div>
+         
+          <div class="col-8 col-lg-4 col-xl-3">
+             <div class="card text-center border-0">
+                 <div class="card-body text-center py-4">
+                     <h3 class="card-title">Ultimate Edition</h3>
+                     <p class="lead card-subtitle">download,updates & extras</p>
+                     <h1 class="display-4 fw-bold text-primary my-3">₹600</h1>
+                     <p class="card-text text-align-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore eius esse, molestias cumque veniam laudantium alias rem magni quae expedita, vel voluptatum</p>
+                     <a href="#" class="btn btn-outline-primary btn-lg">Buy Now</a>
+                 </div>
+             </div>
+         </div>
+          
+      </div>
+      
+      
+      
+      
+  </div>  
+    
+    
+    
+</section>
+       
+<!-- Accordions -->
+      
+        <section id="topics">
+            <div class="container-md">
+                <div class="text-center">
+                    <h2>Inside the Book...</h2>
+                    <p class="lead text-muted">A quick glance at the the topics you'll learn</p>
+                </div>
+                
+                
+                <div class="row my-5 g-5 justify-content-around align-items-center">
+                    <div class="col-6 col-lg-4">
+                        <img src="Images/bookKindle.png" alt="ebook" class="img-fluid">
+                    </div>
+                    <div class="col-lg-4">
+                    <div class="accordion" id="chapters">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-target="#first" data-bs-toggle="collapse" aria-controls="first">Chapter 1 - Introduction to Frontend</button>                          
+                            </h2>
+                            <div id="first" class="accordion-collapse collapse show" data-bs-parent="#chapters">
+                                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio hic officiis libero</div>
+                        
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-target="#second" data-bs-toggle="collapse" aria-controls="second">Chapter 2 - Diving into HTML</button>                          
+                            </h2>
+                            <div id="second" class="accordion-collapse collapse" data-bs-parent="#chapters">
+                                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio hic officiis libero</div>
+                        
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-target="#third" data-bs-toggle="collapse" aria-controls="third">Chapter 3 - Mastering CSS</button>                          
+                            </h2>
+                            <div id="third" class="accordion-collapse collapse" data-bs-parent="#chapters">
+                                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio hic officiis libero</div>
+                        
+                            </div>
+                        </div>
+                    </div>
+                    </div> 
+                </div>    
+            </div>
+        </section>       
+       
+       
+    <section id="reviews" class="bg-light">
+        <div class="container-md">
+          <div class="text-center">
+           <h2><i class="bi bi-stars"></i>Book Reviews</h2>
+           <p class="lead">What my students have said about the book...</p>
+          </div>
+          
+          <div class="row justify-content-center my-5">
+              <div class="col-lg-6">
+                 <div class="list-group my-3">
+                     <div class="list-group-item py-4">
+                        <div id="rating" class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                         <h5>A must buy for upcoming web dev</h5>
+                         <p class="lead fs-6 mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur voluptas laboriosam, blanditiis adipisci quae non quidem, excepturi enim voluptate fugiat recusandae, reprehenderit. Fugit provident blanditiis odio, obcaecati commodi eveniet quisquam.</p>
+                         <small>Review by Lorem</small>
+                     </div>
+                     <div class="list-group-item py-4">
+                        <div id="rating" class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                         <h5>A must buy for upcoming web dev</h5>
+                         <p class="lead fs-6 mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur voluptas laboriosam, blanditiis adipisci quae non quidem, excepturi enim voluptate fugiat recusandae, reprehenderit. Fugit provident blanditiis odio, obcaecati commodi eveniet quisquam.</p>
+                         <small>Review by Lorem</small>
+                     </div>
+                     <div class="list-group-item py-4">
+                        <div id="rating" class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                         <h5>A must buy for upcoming web dev</h5>
+                         <p class="lead fs-6 mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur voluptas laboriosam, blanditiis adipisci quae non quidem, excepturi enim voluptate fugiat recusandae, reprehenderit. Fugit provident blanditiis odio, obcaecati commodi eveniet quisquam.</p>
+                         <small>Review by Lorem</small>
+                     </div>
+                 </div>
+                  
+              </div>
+          </div>
+        </div>
+    </section>
+          
+    <section id="contact">
+        <div class="container-lg">
+            <div class="text-center">
+                <h3>Get in Touch</h3>
+                <p class="lead">Questions to ask? Fill out the form to contact me directly..</p>
+            </div>
+            <div class="row justify-content-center">
+             <div class="col col-lg-6"> 
+            
+            <form>
+                <label for="emailid" class="form-label">Email Address</label>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="bi bi-envelope-at-fill"></i></span> 
+                    <input type="email" id="emailid" class="form-control" placeholder="example@xyz.com">
+                    <span class="input-group-text"><span class='tt' data-bs-toggle="tooltip" data-bs-placement="right" title="the email we would like to contact you"><i class="bi bi-question-circle text-muted"></i></span></span> 
+                </div>
+                
+                
+                <div class="input-group my-3">
+                 <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                  <div class="form-floating">
+                   <input type="text" id="name" class="form-control" placeholder="example">
+                   <label for="name" class="form-label">Name</label>                  
+                </div>
+                <span class="input-group-text"><span class="tt" data-bs-toggle="tooltip" data-bs-placement="right" title="Enter your First Name"><i class="bi bi-question-circle text-muted"></i></span>
+               </span>
+                </div>
+                
+                <label for="location" class="form-label mb-2">Where are you from?</label>
+                <div class="input-group">
+                   <span class="input-group-text"><i class="bi bi-geo-alt-fill"></i></span>
+                    <input class="form-control" list="locationlist" placeholder="Enter your Location">
+                    <datalist id="locationlist">
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Salem">Salem</option>
+                        <option value="Coimbatore">Coimbatore</option>
+                        
+                    </datalist>
+                </div>
+                
+                
+                
+                <label for="selectid" class="form-label my-2">What is your question about?</label>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="bi bi-chat-left-dots-fill"></i></span>
+                       <select class="form-select">
+                        <option value="price" selected>Pricing Query</option>
+                        <option value="book">About Book</option>
+                        <option value="other">Something Else</option>
+                    </select>
+                </div>
+                
+                <div class="form-floating my-2">
+                    <textarea class="form-control" height="100px;" placeholder="queries"></textarea>
+                    <label for="query" class="form-label">Enter your query</label>
+                </div>
+                
+                <div class="form-label my-2">
+                    Interested on the Book ?
+                </div>
+                 <div class="form-check my-2">
+                    <input type="radio" class="form-check-input" id="yes" name="option" checked>
+                    <label for="yes" class="form-check-label">Yes</label>
+                </div>
+                
+                 <div class="form-check my-2">
+                    <input type="radio" class="form-check-input" id="no" name="option">
+                    <label for="no" class="form-check-label">No</label>
+                </div>
+                
+                <div class="form-check form-switch my-2">
+                    <input type="checkbox" class="form-check-input" role="switch" id="choice">
+                    <label class="form-check-label" for="choice">Agree?</label>
+                </div>
+                
+                
+                <div class="text-center">
+                <button class="btn btn-success">Submit</button>
+                </div>
+                
+               
+                
+            </form>
+            </div>  
+            </div>
+        </div>
+    </section>
+          
+          
+    <section id="updates">
+       <div class="container-lg">
+           <div class="text-center">
+               <h3>Stay in the loop</h3>
+               <p class="lead">Get the latest updates as they happen...</p>
+             </div>
+              <div class="row justify-content-center">
+               <div class="col-md-8 text-center">
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita veritatis, aliquid rerum veniam quaerat praesentium eveniet, neque alias asperiores, nesciunt hic tempore voluptates nisi quidem accusamus. Corporis praesentium, porro possimus.</p>
+               <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#egmodal">Get Updates</button>
+               </div> 
+           </div>
+       </div>
+        
+    </section>
+          
+          
+    <div class="modal fade" id="egmodal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title">Get the Latest Updates</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>                    
+                </div>
+                <div class="modal-body">
+                       <p class="muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consequatur similique maxime possimus voluptate veniam quod!</p>
+                       
+                       <label class="form-label" for="emailid">
+                          Enter your Email address for further updates:
+                       </label>
+                       <input type="email" class="form-control" id="emailid" placeholder="xyz@email.com">
+                        
+                        
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    <button class="btn btn-success">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+          
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="slide">
+        <div class="offcanvas-header">
+            <h3 class="offcanvas-title">More Books</h3>
+            <button class="btn-close" data-bs-dismiss="offcanvas">
+            
+            </button>
+        </div>
+        
+        <div class="offcanvas-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, tenetur ipsum aut nobis recusandae est, qui itaque corporis soluta expedita, commodi rerum excepturi nostrum. Cupiditate at magnam adipisci, laboriosam maiores</p>
+            
+            <ul class="list-group">
+                <a href="#" class="list-group-item list-group-item-action list-group-item-dark">Mastering CSS</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-dark">Diving into JS</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-dark">Explore HTML</a>
+            </ul>
+            
+            
+            <div class="dropdown mt-3">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    Click to See More
+                </button> 
+                <ul class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">Book 1</a>
+                    <li><a href="#" class="dropdown-item">Book 2</a>
+                    <li><a href="#" class="dropdown-item">Book 3</a>
+                    <li><a href="#" class="dropdown-item">Book 4</a>                  
+                    
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+    
+         </div>
+          
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+            
+   <script>
+    const tooltips=document.querySelectorAll('.tt')
+    tooltips.forEach(t => {
+        new bootstrap.Tooltip(t)
+    })
+       
+       
+    </script>     
+        
+         
+</body>
+</html>
